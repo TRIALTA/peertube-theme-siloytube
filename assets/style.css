@@ -33,7 +33,7 @@ body {
     border-top-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
-.peertube-button-link, .peertube-button {
+.peertube-button-link:not(.rounded-icon-button), .peertube-button:not(.rounded-icon-button) {
     border-top-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
