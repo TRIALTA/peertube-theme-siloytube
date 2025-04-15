@@ -1,6 +1,6 @@
 {
   "name": "peertube-theme-siloytube",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "SiloyTube PeerTube theme",
   "engine": {
     "peertube": ">=1.3.0"
@@ -9,6 +9,7 @@
     "peertube",
     "theme"
   ],
+  "license": "MIT",
   "homepage": "https://siloytube.com",
   "author": "Laura Sofia Heimann",
   "bugs": "https://siloytube.com",
