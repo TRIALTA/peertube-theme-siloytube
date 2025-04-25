@@ -1,6 +1,6 @@
 {
   "name": "peertube-theme-siloytube",
-  "version": "1.0.5",
+  "version": "1.0.9",
   "description": "SiloyTube PeerTube theme",
   "engine": {
     "peertube": ">=1.3.0"
@@ -15,7 +15,8 @@
   "bugs": "https://siloytube.com",
   "scripts": {
     "versionbump": "node ./scripts/versionbump.js",
-    "dev": "npm run versionbump && peertube-cli plugins install --path \"/peertube-theme-siloytube\""
+    "dev": "npm run versionbump && peertube-cli plugins install --path \"/peertube-theme-siloytube\"",
+    "deploy": "peertube-cli plugins install --path \"/peertube-theme-siloytube\""
   },
   "staticDirs": {
     "images": "public/images"

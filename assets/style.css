@@ -37,3 +37,17 @@ body {
     border-top-left-radius: 0 !important;
     border-bottom-right-radius: 0 !important;
 }
+
+body .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item {
+    background: var(--bg) !important;
+    color: var(--fg) !important;
+}
+body .p-autocomplete-panel .p-autocomplete-items .p-autocomplete-item:hover {
+    background: var(--fg) !important;
+    color: var(--bg) !important;
+}
+
+body .p-autocomplete-panel {
+    background: var(--bg) !important;
+    color: var(--fg) !important;
+}
